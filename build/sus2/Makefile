@@ -558,6 +558,21 @@ sus2_gencpp/fast:
 .PHONY : sus2_gencpp/fast
 
 # Convenience name for target.
+sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/rule:
+	cd /home/pi/sus/build && $(MAKE) -f CMakeFiles/Makefile2 sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/rule
+.PHONY : sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/rule
+
+# Convenience name for target.
+_sus2_generate_messages_check_deps_person_data: sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/rule
+
+.PHONY : _sus2_generate_messages_check_deps_person_data
+
+# fast build rule for target.
+_sus2_generate_messages_check_deps_person_data/fast:
+	cd /home/pi/sus/build && $(MAKE) -f sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/build.make sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/build
+.PHONY : _sus2_generate_messages_check_deps_person_data/fast
+
+# Convenience name for target.
 sus2/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule:
 	cd /home/pi/sus/build && $(MAKE) -f CMakeFiles/Makefile2 sus2/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 .PHONY : sus2/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
@@ -680,6 +695,7 @@ help:
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... sus2_geneus"
 	@echo "... sus2_gencpp"
+	@echo "... _sus2_generate_messages_check_deps_person_data"
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... src/publisher_node.o"

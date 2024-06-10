@@ -1,3 +1,7 @@
+file(REMOVE_RECURSE
+  "/home/pi/sus/devel/share/common-lisp/ros/sus2/msg/person_data.lisp"
+  "CMakeFiles/sus2_generate_messages_lisp"
+)
 
 # Per-language clean rules from dependency scanning.
 foreach(lang )

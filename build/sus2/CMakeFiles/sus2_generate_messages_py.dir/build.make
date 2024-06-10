@@ -53,6 +53,23 @@ CMAKE_BINARY_DIR = /home/pi/sus/build
 # Include the progress variables for this target.
 include sus2/CMakeFiles/sus2_generate_messages_py.dir/progress.make
 
+sus2/CMakeFiles/sus2_generate_messages_py: /home/pi/sus/devel/lib/python3/dist-packages/sus2/msg/_person_data.py
+sus2/CMakeFiles/sus2_generate_messages_py: /home/pi/sus/devel/lib/python3/dist-packages/sus2/msg/__init__.py
+
+
+/home/pi/sus/devel/lib/python3/dist-packages/sus2/msg/_person_data.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/pi/sus/devel/lib/python3/dist-packages/sus2/msg/_person_data.py: /home/pi/sus/src/sus2/msg/person_data.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG sus2/person_data"
+	cd /home/pi/sus/build/sus2 && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/pi/sus/src/sus2/msg/person_data.msg -Isus2:/home/pi/sus/src/sus2/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p sus2 -o /home/pi/sus/devel/lib/python3/dist-packages/sus2/msg
+
+/home/pi/sus/devel/lib/python3/dist-packages/sus2/msg/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/pi/sus/devel/lib/python3/dist-packages/sus2/msg/__init__.py: /home/pi/sus/devel/lib/python3/dist-packages/sus2/msg/_person_data.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python msg __init__.py for sus2"
+	cd /home/pi/sus/build/sus2 && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/pi/sus/devel/lib/python3/dist-packages/sus2/msg --initpy
+
+sus2_generate_messages_py: sus2/CMakeFiles/sus2_generate_messages_py
+sus2_generate_messages_py: /home/pi/sus/devel/lib/python3/dist-packages/sus2/msg/_person_data.py
+sus2_generate_messages_py: /home/pi/sus/devel/lib/python3/dist-packages/sus2/msg/__init__.py
 sus2_generate_messages_py: sus2/CMakeFiles/sus2_generate_messages_py.dir/build.make
 
 .PHONY : sus2_generate_messages_py

@@ -68,5 +68,6 @@
 /home/pi/sus/build/sus2/CMakeFiles/std_msgs_generate_messages_nodejs.dir
 /home/pi/sus/build/sus2/CMakeFiles/sus2_geneus.dir
 /home/pi/sus/build/sus2/CMakeFiles/sus2_gencpp.dir
+/home/pi/sus/build/sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir
 /home/pi/sus/build/sus2/CMakeFiles/roscpp_generate_messages_nodejs.dir
 /home/pi/sus/build/sus2/CMakeFiles/std_msgs_generate_messages_py.dir

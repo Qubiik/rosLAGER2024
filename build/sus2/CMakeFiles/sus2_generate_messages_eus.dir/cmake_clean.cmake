@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "/home/pi/sus/devel/share/roseus/ros/sus2/manifest.l"
+  "/home/pi/sus/devel/share/roseus/ros/sus2/msg/person_data.l"
   "CMakeFiles/sus2_generate_messages_eus"
 )
 

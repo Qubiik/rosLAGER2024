@@ -3,6 +3,6 @@ prefix=/home/pi/sus/devel
 Name: sus2
 Description: Description of sus2
 Version: 0.0.0
-Cflags: 
+Cflags: -I/home/pi/sus/devel/include
 Libs: -L${prefix}/lib 
 Requires: 

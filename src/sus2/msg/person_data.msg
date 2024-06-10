@@ -1,3 +1,3 @@
 string name
-unit8 age
+uint8 age
 string color

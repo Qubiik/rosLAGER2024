@@ -9,8 +9,8 @@
 /home/pi/sus/src/sus2/src/subscriber_node.cpp
 ros/ros.h
 /home/pi/sus/src/sus2/src/ros/ros.h
-std_msgs/String.h
-/home/pi/sus/src/sus2/src/std_msgs/String.h
+sus2/person_data.h
+/home/pi/sus/src/sus2/src/sus2/person_data.h
 
 /opt/ros/noetic/include/ros/advertise_options.h
 ros/forwards.h
@@ -220,10 +220,6 @@ boost/make_shared.hpp
 cstddef
 -
 memory
--
-
-/opt/ros/noetic/include/ros/message_operations.h
-ostream
 -
 
 /opt/ros/noetic/include/ros/message_traits.h
@@ -659,22 +655,6 @@ ros/forwards.h
 /opt/ros/noetic/include/ros/ros/forwards.h
 
 /opt/ros/noetic/include/rosconsole/macros_generated.h
-
-/opt/ros/noetic/include/std_msgs/String.h
-string
--
-vector
--
-memory
--
-ros/types.h
--
-ros/serialization.h
--
-ros/builtin_message_traits.h
--
-ros/message_operations.h
--
 
 /opt/ros/noetic/include/xmlrpcpp/XmlRpcDecl.h
 ros/macros.h
