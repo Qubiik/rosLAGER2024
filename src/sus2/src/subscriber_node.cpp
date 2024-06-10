@@ -1,7 +1,7 @@
 #include "ros/ros.h"
-#include "std_msgs/String.h"
+#include "sus2/person_data.h"
 
-void writeMsgToLOg(const std_msgs::String::ConstPtr& msg){
+void writeMsgToLOg(const sus2::person_data::ConstPtr& persodata){
     ROS_INFO("The message that we received was: %s", msg->data.c_str());
 }
 
