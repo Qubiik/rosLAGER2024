@@ -1,0 +1,2 @@
+sus2
+-DCATKIN_DEVEL_PREFIX=/home/pi/sus/devel -DCMAKE_INSTALL_PREFIX=/home/pi/sus/install -G Unix Makefiles
