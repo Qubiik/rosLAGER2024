@@ -55,11 +55,10 @@ include_directories(${catkin_INCLUDE_DIRS})
  )
 
 ## Generate services in the 'srv' folder
-# add_service_files(
-#   FILES
-#   Service1.srv
-#   Service2.srv
-# )
+ add_service_files(
+   FILES
+   AddTwoins.srv
+ )
 
 ## Generate actions in the 'action' folder
 # add_action_files(
@@ -136,6 +135,7 @@ include_directories(
 ## The recommended prefix ensures that target names across packages don't collide
  add_executable(publisher_node src/publisher_node.cpp)
  add_executable(subscriber_node src/subscriber_node.cpp)
+ add_executable(addition_service_node src/addition_service_node.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -147,12 +147,16 @@ include_directories(
 ## same as for the library above
  add_dependencies(publisher_node ${publisher_node_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
  add_dependencies(subscriber_node ${subscriber_node_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+ add_dependencies(addition_service_node ${addition_service_node_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
  target_link_libraries(subscriber_node
    ${catkin_LIBRARIES}
  )
 ## Specify libraries to link a library or executable target against
  target_link_libraries(publisher_node
+   ${catkin_LIBRARIES}
+ )
+target_link_libraries(addition_service_node
    ${catkin_LIBRARIES}
  )
 

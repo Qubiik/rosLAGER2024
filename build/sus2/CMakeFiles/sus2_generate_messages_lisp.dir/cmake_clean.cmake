@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "/home/pi/sus/devel/share/common-lisp/ros/sus2/msg/person_data.lisp"
+  "/home/pi/sus/devel/share/common-lisp/ros/sus2/srv/AddTwoins.lisp"
   "CMakeFiles/sus2_generate_messages_lisp"
 )
 

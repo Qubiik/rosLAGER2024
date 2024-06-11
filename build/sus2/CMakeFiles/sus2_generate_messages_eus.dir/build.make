@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/pi/sus/build
 include sus2/CMakeFiles/sus2_generate_messages_eus.dir/progress.make
 
 sus2/CMakeFiles/sus2_generate_messages_eus: /home/pi/sus/devel/share/roseus/ros/sus2/msg/person_data.l
+sus2/CMakeFiles/sus2_generate_messages_eus: /home/pi/sus/devel/share/roseus/ros/sus2/srv/AddTwoins.l
 sus2/CMakeFiles/sus2_generate_messages_eus: /home/pi/sus/devel/share/roseus/ros/sus2/manifest.l
 
 
@@ -62,12 +63,18 @@ sus2/CMakeFiles/sus2_generate_messages_eus: /home/pi/sus/devel/share/roseus/ros/
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from sus2/person_data.msg"
 	cd /home/pi/sus/build/sus2 && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/sus/src/sus2/msg/person_data.msg -Isus2:/home/pi/sus/src/sus2/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p sus2 -o /home/pi/sus/devel/share/roseus/ros/sus2/msg
 
+/home/pi/sus/devel/share/roseus/ros/sus2/srv/AddTwoins.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+/home/pi/sus/devel/share/roseus/ros/sus2/srv/AddTwoins.l: /home/pi/sus/src/sus2/srv/AddTwoins.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from sus2/AddTwoins.srv"
+	cd /home/pi/sus/build/sus2 && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/pi/sus/src/sus2/srv/AddTwoins.srv -Isus2:/home/pi/sus/src/sus2/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p sus2 -o /home/pi/sus/devel/share/roseus/ros/sus2/srv
+
 /home/pi/sus/devel/share/roseus/ros/sus2/manifest.l: /opt/ros/noetic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for sus2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp manifest code for sus2"
 	cd /home/pi/sus/build/sus2 && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/pi/sus/devel/share/roseus/ros/sus2 sus2 std_msgs
 
 sus2_generate_messages_eus: sus2/CMakeFiles/sus2_generate_messages_eus
 sus2_generate_messages_eus: /home/pi/sus/devel/share/roseus/ros/sus2/msg/person_data.l
+sus2_generate_messages_eus: /home/pi/sus/devel/share/roseus/ros/sus2/srv/AddTwoins.l
 sus2_generate_messages_eus: /home/pi/sus/devel/share/roseus/ros/sus2/manifest.l
 sus2_generate_messages_eus: sus2/CMakeFiles/sus2_generate_messages_eus.dir/build.make
 

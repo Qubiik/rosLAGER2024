@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/pi/sus/build
 include sus2/CMakeFiles/sus2_generate_messages_lisp.dir/progress.make
 
 sus2/CMakeFiles/sus2_generate_messages_lisp: /home/pi/sus/devel/share/common-lisp/ros/sus2/msg/person_data.lisp
+sus2/CMakeFiles/sus2_generate_messages_lisp: /home/pi/sus/devel/share/common-lisp/ros/sus2/srv/AddTwoins.lisp
 
 
 /home/pi/sus/devel/share/common-lisp/ros/sus2/msg/person_data.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
@@ -61,8 +62,14 @@ sus2/CMakeFiles/sus2_generate_messages_lisp: /home/pi/sus/devel/share/common-lis
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from sus2/person_data.msg"
 	cd /home/pi/sus/build/sus2 && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/pi/sus/src/sus2/msg/person_data.msg -Isus2:/home/pi/sus/src/sus2/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p sus2 -o /home/pi/sus/devel/share/common-lisp/ros/sus2/msg
 
+/home/pi/sus/devel/share/common-lisp/ros/sus2/srv/AddTwoins.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
+/home/pi/sus/devel/share/common-lisp/ros/sus2/srv/AddTwoins.lisp: /home/pi/sus/src/sus2/srv/AddTwoins.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from sus2/AddTwoins.srv"
+	cd /home/pi/sus/build/sus2 && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/pi/sus/src/sus2/srv/AddTwoins.srv -Isus2:/home/pi/sus/src/sus2/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p sus2 -o /home/pi/sus/devel/share/common-lisp/ros/sus2/srv
+
 sus2_generate_messages_lisp: sus2/CMakeFiles/sus2_generate_messages_lisp
 sus2_generate_messages_lisp: /home/pi/sus/devel/share/common-lisp/ros/sus2/msg/person_data.lisp
+sus2_generate_messages_lisp: /home/pi/sus/devel/share/common-lisp/ros/sus2/srv/AddTwoins.lisp
 sus2_generate_messages_lisp: sus2/CMakeFiles/sus2_generate_messages_lisp.dir/build.make
 
 .PHONY : sus2_generate_messages_lisp
