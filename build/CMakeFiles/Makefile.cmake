@@ -254,4 +254,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/DependInfo.cmake"
   "sus2/CMakeFiles/sus2_generate_messages_py.dir/DependInfo.cmake"
   "sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/DependInfo.cmake"
+  "sus2/CMakeFiles/addition_client_node.dir/DependInfo.cmake"
   )

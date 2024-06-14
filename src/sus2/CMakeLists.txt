@@ -136,6 +136,7 @@ include_directories(
  add_executable(publisher_node src/publisher_node.cpp)
  add_executable(subscriber_node src/subscriber_node.cpp)
  add_executable(addition_service_node src/addition_service_node.cpp)
+ add_executable(addition_client_node src/addition_client_node.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -148,6 +149,7 @@ include_directories(
  add_dependencies(publisher_node ${publisher_node_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
  add_dependencies(subscriber_node ${subscriber_node_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
  add_dependencies(addition_service_node ${addition_service_node_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+ add_dependencies(addition_client_node ${addition_client_node_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
  target_link_libraries(subscriber_node
    ${catkin_LIBRARIES}
@@ -159,7 +161,9 @@ include_directories(
 target_link_libraries(addition_service_node
    ${catkin_LIBRARIES}
  )
-
+target_link_libraries(addition_client_node
+   ${catkin_LIBRARIES}
+ )
 #############
 ## Install ##
 #############

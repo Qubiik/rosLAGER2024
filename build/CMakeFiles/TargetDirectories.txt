@@ -36,6 +36,7 @@
 /home/pi/sus/build/gtest/googlemock/gtest/CMakeFiles/gtest.dir
 /home/pi/sus/build/gtest/googlemock/gtest/CMakeFiles/rebuild_cache.dir
 /home/pi/sus/build/sus2/CMakeFiles/install/strip.dir
+/home/pi/sus/build/sus2/CMakeFiles/install.dir
 /home/pi/sus/build/sus2/CMakeFiles/sus2_gencpp.dir
 /home/pi/sus/build/sus2/CMakeFiles/std_msgs_generate_messages_nodejs.dir
 /home/pi/sus/build/sus2/CMakeFiles/std_msgs_generate_messages_eus.dir
@@ -49,7 +50,6 @@
 /home/pi/sus/build/sus2/CMakeFiles/sus2_gennodejs.dir
 /home/pi/sus/build/sus2/CMakeFiles/sus2_geneus.dir
 /home/pi/sus/build/sus2/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir
-/home/pi/sus/build/sus2/CMakeFiles/install.dir
 /home/pi/sus/build/sus2/CMakeFiles/subscriber_node.dir
 /home/pi/sus/build/sus2/CMakeFiles/std_msgs_generate_messages_lisp.dir
 /home/pi/sus/build/sus2/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
@@ -72,4 +72,5 @@
 /home/pi/sus/build/sus2/CMakeFiles/sus2_generate_messages_nodejs.dir
 /home/pi/sus/build/sus2/CMakeFiles/sus2_generate_messages_py.dir
 /home/pi/sus/build/sus2/CMakeFiles/roscpp_generate_messages_cpp.dir
+/home/pi/sus/build/sus2/CMakeFiles/addition_client_node.dir
 /home/pi/sus/build/sus2/CMakeFiles/rebuild_cache.dir
