@@ -687,6 +687,19 @@ roscpp_generate_messages_cpp/fast:
 	$(MAKE) -f sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
 
+#=============================================================================
+# Target rules for targets named addition_client_node
+
+# Build rule for target.
+addition_client_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 addition_client_node
+.PHONY : addition_client_node
+
+# fast build rule for target.
+addition_client_node/fast:
+	$(MAKE) -f sus2/CMakeFiles/addition_client_node.dir/build.make sus2/CMakeFiles/addition_client_node.dir/build
+.PHONY : addition_client_node/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -740,6 +753,7 @@ help:
 	@echo "... sus2_generate_messages_nodejs"
 	@echo "... sus2_generate_messages_py"
 	@echo "... roscpp_generate_messages_cpp"
+	@echo "... addition_client_node"
 .PHONY : help
 
 

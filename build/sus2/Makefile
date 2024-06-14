@@ -68,17 +68,6 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
-
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
@@ -90,6 +79,17 @@ install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
+
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
 
 # Special rule for the target install/local
 install/local: preinstall
@@ -632,6 +632,48 @@ roscpp_generate_messages_cpp/fast:
 	cd /home/pi/sus/build && $(MAKE) -f sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
 
+# Convenience name for target.
+sus2/CMakeFiles/addition_client_node.dir/rule:
+	cd /home/pi/sus/build && $(MAKE) -f CMakeFiles/Makefile2 sus2/CMakeFiles/addition_client_node.dir/rule
+.PHONY : sus2/CMakeFiles/addition_client_node.dir/rule
+
+# Convenience name for target.
+addition_client_node: sus2/CMakeFiles/addition_client_node.dir/rule
+
+.PHONY : addition_client_node
+
+# fast build rule for target.
+addition_client_node/fast:
+	cd /home/pi/sus/build && $(MAKE) -f sus2/CMakeFiles/addition_client_node.dir/build.make sus2/CMakeFiles/addition_client_node.dir/build
+.PHONY : addition_client_node/fast
+
+src/addition_client_node.o: src/addition_client_node.cpp.o
+
+.PHONY : src/addition_client_node.o
+
+# target to build an object file
+src/addition_client_node.cpp.o:
+	cd /home/pi/sus/build && $(MAKE) -f sus2/CMakeFiles/addition_client_node.dir/build.make sus2/CMakeFiles/addition_client_node.dir/src/addition_client_node.cpp.o
+.PHONY : src/addition_client_node.cpp.o
+
+src/addition_client_node.i: src/addition_client_node.cpp.i
+
+.PHONY : src/addition_client_node.i
+
+# target to preprocess a source file
+src/addition_client_node.cpp.i:
+	cd /home/pi/sus/build && $(MAKE) -f sus2/CMakeFiles/addition_client_node.dir/build.make sus2/CMakeFiles/addition_client_node.dir/src/addition_client_node.cpp.i
+.PHONY : src/addition_client_node.cpp.i
+
+src/addition_client_node.s: src/addition_client_node.cpp.s
+
+.PHONY : src/addition_client_node.s
+
+# target to generate assembly for a file
+src/addition_client_node.cpp.s:
+	cd /home/pi/sus/build && $(MAKE) -f sus2/CMakeFiles/addition_client_node.dir/build.make sus2/CMakeFiles/addition_client_node.dir/src/addition_client_node.cpp.s
+.PHONY : src/addition_client_node.cpp.s
+
 src/addition_service_node.o: src/addition_service_node.cpp.o
 
 .PHONY : src/addition_service_node.o
@@ -720,6 +762,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
+	@echo "... install"
 	@echo "... sus2_gencpp"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_eus"
@@ -733,7 +776,6 @@ help:
 	@echo "... sus2_gennodejs"
 	@echo "... sus2_geneus"
 	@echo "... rosgraph_msgs_generate_messages_eus"
-	@echo "... install"
 	@echo "... subscriber_node"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_cpp"
@@ -756,7 +798,11 @@ help:
 	@echo "... sus2_generate_messages_nodejs"
 	@echo "... sus2_generate_messages_py"
 	@echo "... roscpp_generate_messages_cpp"
+	@echo "... addition_client_node"
 	@echo "... rebuild_cache"
+	@echo "... src/addition_client_node.o"
+	@echo "... src/addition_client_node.i"
+	@echo "... src/addition_client_node.s"
 	@echo "... src/addition_service_node.o"
 	@echo "... src/addition_service_node.i"
 	@echo "... src/addition_service_node.s"

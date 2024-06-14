@@ -140,6 +140,7 @@ sus2/all: sus2/CMakeFiles/sus2_generate_messages.dir/all
 sus2/all: sus2/CMakeFiles/subscriber_node.dir/all
 sus2/all: sus2/CMakeFiles/publisher_node.dir/all
 sus2/all: sus2/CMakeFiles/addition_service_node.dir/all
+sus2/all: sus2/CMakeFiles/addition_client_node.dir/all
 
 .PHONY : sus2/all
 
@@ -180,6 +181,7 @@ sus2/clean: sus2/CMakeFiles/sus2_genlisp.dir/clean
 sus2/clean: sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/clean
 sus2/clean: sus2/CMakeFiles/sus2_generate_messages_py.dir/clean
 sus2/clean: sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+sus2/clean: sus2/CMakeFiles/addition_client_node.dir/clean
 
 .PHONY : sus2/clean
 
@@ -326,7 +328,7 @@ gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googlemock/CMakeFiles/gmoc
 gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=5,6 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=7,8 "Built target gmock_main"
 .PHONY : gtest/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -353,7 +355,7 @@ gtest/googlemock/CMakeFiles/gmock_main.dir/clean:
 gtest/googlemock/CMakeFiles/gmock.dir/all: gtest/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=3,4 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=5,6 "Built target gmock"
 .PHONY : gtest/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -380,7 +382,7 @@ gtest/googlemock/CMakeFiles/gmock.dir/clean:
 gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/all: gtest/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=9,10 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=11,12 "Built target gtest_main"
 .PHONY : gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -407,7 +409,7 @@ gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/clean:
 gtest/googlemock/gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/googlemock/gtest/CMakeFiles/gtest.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/googlemock/gtest/CMakeFiles/gtest.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=7,8 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=9,10 "Built target gtest"
 .PHONY : gtest/googlemock/gtest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -656,7 +658,7 @@ sus2/CMakeFiles/sus2_generate_messages_cpp.dir/all: sus2/CMakeFiles/_sus2_genera
 sus2/CMakeFiles/sus2_generate_messages_cpp.dir/all: sus2/CMakeFiles/_sus2_generate_messages_check_deps_AddTwoins.dir/all
 	$(MAKE) -f sus2/CMakeFiles/sus2_generate_messages_cpp.dir/build.make sus2/CMakeFiles/sus2_generate_messages_cpp.dir/depend
 	$(MAKE) -f sus2/CMakeFiles/sus2_generate_messages_cpp.dir/build.make sus2/CMakeFiles/sus2_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=15,16 "Built target sus2_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=17,18 "Built target sus2_generate_messages_cpp"
 .PHONY : sus2/CMakeFiles/sus2_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -778,7 +780,7 @@ sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messa
 sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 	$(MAKE) -f sus2/CMakeFiles/subscriber_node.dir/build.make sus2/CMakeFiles/subscriber_node.dir/depend
 	$(MAKE) -f sus2/CMakeFiles/subscriber_node.dir/build.make sus2/CMakeFiles/subscriber_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=13,14 "Built target subscriber_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=15,16 "Built target subscriber_node"
 .PHONY : sus2/CMakeFiles/subscriber_node.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1008,7 +1010,7 @@ sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messag
 sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 	$(MAKE) -f sus2/CMakeFiles/publisher_node.dir/build.make sus2/CMakeFiles/publisher_node.dir/depend
 	$(MAKE) -f sus2/CMakeFiles/publisher_node.dir/build.make sus2/CMakeFiles/publisher_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=11,12 "Built target publisher_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=13,14 "Built target publisher_node"
 .PHONY : sus2/CMakeFiles/publisher_node.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1091,7 +1093,7 @@ sus2/CMakeFiles/sus2_generate_messages_eus.dir/all: sus2/CMakeFiles/_sus2_genera
 sus2/CMakeFiles/sus2_generate_messages_eus.dir/all: sus2/CMakeFiles/_sus2_generate_messages_check_deps_AddTwoins.dir/all
 	$(MAKE) -f sus2/CMakeFiles/sus2_generate_messages_eus.dir/build.make sus2/CMakeFiles/sus2_generate_messages_eus.dir/depend
 	$(MAKE) -f sus2/CMakeFiles/sus2_generate_messages_eus.dir/build.make sus2/CMakeFiles/sus2_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=17,18,19 "Built target sus2_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=19,20,21 "Built target sus2_generate_messages_eus"
 .PHONY : sus2/CMakeFiles/sus2_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1147,7 +1149,7 @@ sus2/CMakeFiles/sus2_generate_messages_lisp.dir/all: sus2/CMakeFiles/_sus2_gener
 sus2/CMakeFiles/sus2_generate_messages_lisp.dir/all: sus2/CMakeFiles/_sus2_generate_messages_check_deps_AddTwoins.dir/all
 	$(MAKE) -f sus2/CMakeFiles/sus2_generate_messages_lisp.dir/build.make sus2/CMakeFiles/sus2_generate_messages_lisp.dir/depend
 	$(MAKE) -f sus2/CMakeFiles/sus2_generate_messages_lisp.dir/build.make sus2/CMakeFiles/sus2_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=20,21 "Built target sus2_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=22,23 "Built target sus2_generate_messages_lisp"
 .PHONY : sus2/CMakeFiles/sus2_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1188,7 +1190,7 @@ sus2/CMakeFiles/addition_service_node.dir/all: sus2/CMakeFiles/std_msgs_generate
 sus2/CMakeFiles/addition_service_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 	$(MAKE) -f sus2/CMakeFiles/addition_service_node.dir/build.make sus2/CMakeFiles/addition_service_node.dir/depend
 	$(MAKE) -f sus2/CMakeFiles/addition_service_node.dir/build.make sus2/CMakeFiles/addition_service_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=1,2 "Built target addition_service_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=3,4 "Built target addition_service_node"
 .PHONY : sus2/CMakeFiles/addition_service_node.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1244,7 +1246,7 @@ sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/all: sus2/CMakeFiles/_sus2_gen
 sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/all: sus2/CMakeFiles/_sus2_generate_messages_check_deps_AddTwoins.dir/all
 	$(MAKE) -f sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/build.make sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/depend
 	$(MAKE) -f sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/build.make sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=22,23 "Built target sus2_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=24,25 "Built target sus2_generate_messages_nodejs"
 .PHONY : sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1273,7 +1275,7 @@ sus2/CMakeFiles/sus2_generate_messages_py.dir/all: sus2/CMakeFiles/_sus2_generat
 sus2/CMakeFiles/sus2_generate_messages_py.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_py.dir/all
 	$(MAKE) -f sus2/CMakeFiles/sus2_generate_messages_py.dir/build.make sus2/CMakeFiles/sus2_generate_messages_py.dir/depend
 	$(MAKE) -f sus2/CMakeFiles/sus2_generate_messages_py.dir/build.make sus2/CMakeFiles/sus2_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=24,25,26,27 "Built target sus2_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=26,27,28,29 "Built target sus2_generate_messages_py"
 .PHONY : sus2/CMakeFiles/sus2_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1319,6 +1321,47 @@ roscpp_generate_messages_cpp: sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/r
 sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
 	$(MAKE) -f sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
 .PHONY : sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+
+#=============================================================================
+# Target rules for target sus2/CMakeFiles/addition_client_node.dir
+
+# All Build rule for target.
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_eus.dir/all
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_py.dir/all
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_py.dir/all
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+	$(MAKE) -f sus2/CMakeFiles/addition_client_node.dir/build.make sus2/CMakeFiles/addition_client_node.dir/depend
+	$(MAKE) -f sus2/CMakeFiles/addition_client_node.dir/build.make sus2/CMakeFiles/addition_client_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=1,2 "Built target addition_client_node"
+.PHONY : sus2/CMakeFiles/addition_client_node.dir/all
+
+# Build rule for subdir invocation for target.
+sus2/CMakeFiles/addition_client_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 sus2/CMakeFiles/addition_client_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
+.PHONY : sus2/CMakeFiles/addition_client_node.dir/rule
+
+# Convenience name for target.
+addition_client_node: sus2/CMakeFiles/addition_client_node.dir/rule
+
+.PHONY : addition_client_node
+
+# clean rule for target.
+sus2/CMakeFiles/addition_client_node.dir/clean:
+	$(MAKE) -f sus2/CMakeFiles/addition_client_node.dir/build.make sus2/CMakeFiles/addition_client_node.dir/clean
+.PHONY : sus2/CMakeFiles/addition_client_node.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
