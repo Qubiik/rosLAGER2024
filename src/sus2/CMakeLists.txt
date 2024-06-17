@@ -12,6 +12,7 @@ find_package(catkin REQUIRED COMPONENTS
   rospy 
   std_msgs 
   message_generation
+  sensor_msgs
 )
 
 include_directories(${catkin_INCLUDE_DIRS})
@@ -137,6 +138,7 @@ include_directories(
  add_executable(subscriber_node src/subscriber_node.cpp)
  add_executable(addition_service_node src/addition_service_node.cpp)
  add_executable(addition_client_node src/addition_client_node.cpp)
+ add_executable(test_lidar_node src/test_lidar_node.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -150,6 +152,7 @@ include_directories(
  add_dependencies(subscriber_node ${subscriber_node_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
  add_dependencies(addition_service_node ${addition_service_node_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
  add_dependencies(addition_client_node ${addition_client_node_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+ add_dependencies(test_lidar_node ${test_lidar_node_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
  target_link_libraries(subscriber_node
    ${catkin_LIBRARIES}
@@ -162,6 +165,9 @@ target_link_libraries(addition_service_node
    ${catkin_LIBRARIES}
  )
 target_link_libraries(addition_client_node
+   ${catkin_LIBRARIES}
+ )
+ target_link_libraries(test_lidar_node
    ${catkin_LIBRARIES}
  )
 #############

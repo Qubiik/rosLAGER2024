@@ -1,10 +1,8 @@
 #include "ros/ros.h"
-#include "sus2/person_data.h"
+#include "std_msgs/Header.h"
 
-void writeMsgToLOg(const sus2::person_data &person_data){
-    ROS_INFO("Name: %s", person_data.name.c_str());
-    ROS_INFO("Age: %i", person_data.age);
-    ROS_INFO("Color: %s", person_data.color.c_str());
+void writeMsgToLOg(const std_msgs:Header &ranges){
+    ROS_INFO(ranges);
 }
 
 int main(int argc, char **argv){

@@ -285,6 +285,45 @@ gtest/fast:
 .PHONY : gtest/fast
 
 #=============================================================================
+# Target rules for targets named test_lidar_node
+
+# Build rule for target.
+test_lidar_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_lidar_node
+.PHONY : test_lidar_node
+
+# fast build rule for target.
+test_lidar_node/fast:
+	$(MAKE) -f sus2/CMakeFiles/test_lidar_node.dir/build.make sus2/CMakeFiles/test_lidar_node.dir/build
+.PHONY : test_lidar_node/fast
+
+#=============================================================================
+# Target rules for targets named subscriber_node
+
+# Build rule for target.
+subscriber_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 subscriber_node
+.PHONY : subscriber_node
+
+# fast build rule for target.
+subscriber_node/fast:
+	$(MAKE) -f sus2/CMakeFiles/subscriber_node.dir/build.make sus2/CMakeFiles/subscriber_node.dir/build
+.PHONY : subscriber_node/fast
+
+#=============================================================================
+# Target rules for targets named sus2_generate_messages_py
+
+# Build rule for target.
+sus2_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sus2_generate_messages_py
+.PHONY : sus2_generate_messages_py
+
+# fast build rule for target.
+sus2_generate_messages_py/fast:
+	$(MAKE) -f sus2/CMakeFiles/sus2_generate_messages_py.dir/build.make sus2/CMakeFiles/sus2_generate_messages_py.dir/build
+.PHONY : sus2_generate_messages_py/fast
+
+#=============================================================================
 # Target rules for targets named sus2_gencpp
 
 # Build rule for target.
@@ -363,19 +402,6 @@ std_msgs_generate_messages_cpp/fast:
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 #=============================================================================
-# Target rules for targets named sus2_generate_messages
-
-# Build rule for target.
-sus2_generate_messages: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sus2_generate_messages
-.PHONY : sus2_generate_messages
-
-# fast build rule for target.
-sus2_generate_messages/fast:
-	$(MAKE) -f sus2/CMakeFiles/sus2_generate_messages.dir/build.make sus2/CMakeFiles/sus2_generate_messages.dir/build
-.PHONY : sus2_generate_messages/fast
-
-#=============================================================================
 # Target rules for targets named rosgraph_msgs_generate_messages_lisp
 
 # Build rule for target.
@@ -441,19 +467,6 @@ rosgraph_msgs_generate_messages_eus/fast:
 .PHONY : rosgraph_msgs_generate_messages_eus/fast
 
 #=============================================================================
-# Target rules for targets named subscriber_node
-
-# Build rule for target.
-subscriber_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 subscriber_node
-.PHONY : subscriber_node
-
-# fast build rule for target.
-subscriber_node/fast:
-	$(MAKE) -f sus2/CMakeFiles/subscriber_node.dir/build.make sus2/CMakeFiles/subscriber_node.dir/build
-.PHONY : subscriber_node/fast
-
-#=============================================================================
 # Target rules for targets named std_msgs_generate_messages_lisp
 
 # Build rule for target.
@@ -465,6 +478,32 @@ std_msgs_generate_messages_lisp: cmake_check_build_system
 std_msgs_generate_messages_lisp/fast:
 	$(MAKE) -f sus2/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make sus2/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_cpp
+
+# Build rule for target.
+sensor_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_cpp
+.PHONY : sensor_msgs_generate_messages_cpp
+
+# fast build rule for target.
+sensor_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f sus2/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make sus2/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+.PHONY : sensor_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_eus
+
+# Build rule for target.
+sensor_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_eus
+.PHONY : sensor_msgs_generate_messages_eus
+
+# fast build rule for target.
+sensor_msgs_generate_messages_eus/fast:
+	$(MAKE) -f sus2/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make sus2/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
+.PHONY : sensor_msgs_generate_messages_eus/fast
 
 #=============================================================================
 # Target rules for targets named rosgraph_msgs_generate_messages_cpp
@@ -493,6 +532,58 @@ roscpp_generate_messages_lisp/fast:
 .PHONY : roscpp_generate_messages_lisp/fast
 
 #=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_nodejs
+
+# Build rule for target.
+geometry_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_nodejs
+.PHONY : geometry_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+geometry_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f sus2/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make sus2/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
+.PHONY : geometry_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named publisher_node
+
+# Build rule for target.
+publisher_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 publisher_node
+.PHONY : publisher_node
+
+# fast build rule for target.
+publisher_node/fast:
+	$(MAKE) -f sus2/CMakeFiles/publisher_node.dir/build.make sus2/CMakeFiles/publisher_node.dir/build
+.PHONY : publisher_node/fast
+
+#=============================================================================
+# Target rules for targets named _sus2_generate_messages_check_deps_person_data
+
+# Build rule for target.
+_sus2_generate_messages_check_deps_person_data: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _sus2_generate_messages_check_deps_person_data
+.PHONY : _sus2_generate_messages_check_deps_person_data
+
+# fast build rule for target.
+_sus2_generate_messages_check_deps_person_data/fast:
+	$(MAKE) -f sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/build.make sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/build
+.PHONY : _sus2_generate_messages_check_deps_person_data/fast
+
+#=============================================================================
+# Target rules for targets named roscpp_generate_messages_py
+
+# Build rule for target.
+roscpp_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_py
+.PHONY : roscpp_generate_messages_py
+
+# fast build rule for target.
+roscpp_generate_messages_py/fast:
+	$(MAKE) -f sus2/CMakeFiles/roscpp_generate_messages_py.dir/build.make sus2/CMakeFiles/roscpp_generate_messages_py.dir/build
+.PHONY : roscpp_generate_messages_py/fast
+
+#=============================================================================
 # Target rules for targets named roscpp_generate_messages_nodejs
 
 # Build rule for target.
@@ -519,6 +610,19 @@ roscpp_generate_messages_eus/fast:
 .PHONY : roscpp_generate_messages_eus/fast
 
 #=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_eus
+
+# Build rule for target.
+geometry_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_eus
+.PHONY : geometry_msgs_generate_messages_eus
+
+# fast build rule for target.
+geometry_msgs_generate_messages_eus/fast:
+	$(MAKE) -f sus2/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make sus2/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+.PHONY : geometry_msgs_generate_messages_eus/fast
+
+#=============================================================================
 # Target rules for targets named sus2_genpy
 
 # Build rule for target.
@@ -532,43 +636,134 @@ sus2_genpy/fast:
 .PHONY : sus2_genpy/fast
 
 #=============================================================================
-# Target rules for targets named _sus2_generate_messages_check_deps_person_data
+# Target rules for targets named sensor_msgs_generate_messages_lisp
 
 # Build rule for target.
-_sus2_generate_messages_check_deps_person_data: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _sus2_generate_messages_check_deps_person_data
-.PHONY : _sus2_generate_messages_check_deps_person_data
+sensor_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_lisp
+.PHONY : sensor_msgs_generate_messages_lisp
 
 # fast build rule for target.
-_sus2_generate_messages_check_deps_person_data/fast:
-	$(MAKE) -f sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/build.make sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/build
-.PHONY : _sus2_generate_messages_check_deps_person_data/fast
+sensor_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f sus2/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make sus2/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+.PHONY : sensor_msgs_generate_messages_lisp/fast
 
 #=============================================================================
-# Target rules for targets named publisher_node
+# Target rules for targets named addition_client_node
 
 # Build rule for target.
-publisher_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 publisher_node
-.PHONY : publisher_node
+addition_client_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 addition_client_node
+.PHONY : addition_client_node
 
 # fast build rule for target.
-publisher_node/fast:
-	$(MAKE) -f sus2/CMakeFiles/publisher_node.dir/build.make sus2/CMakeFiles/publisher_node.dir/build
-.PHONY : publisher_node/fast
+addition_client_node/fast:
+	$(MAKE) -f sus2/CMakeFiles/addition_client_node.dir/build.make sus2/CMakeFiles/addition_client_node.dir/build
+.PHONY : addition_client_node/fast
 
 #=============================================================================
-# Target rules for targets named roscpp_generate_messages_py
+# Target rules for targets named roscpp_generate_messages_cpp
 
 # Build rule for target.
-roscpp_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_py
-.PHONY : roscpp_generate_messages_py
+roscpp_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_cpp
+.PHONY : roscpp_generate_messages_cpp
 
 # fast build rule for target.
-roscpp_generate_messages_py/fast:
-	$(MAKE) -f sus2/CMakeFiles/roscpp_generate_messages_py.dir/build.make sus2/CMakeFiles/roscpp_generate_messages_py.dir/build
-.PHONY : roscpp_generate_messages_py/fast
+roscpp_generate_messages_cpp/fast:
+	$(MAKE) -f sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+.PHONY : roscpp_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_nodejs
+
+# Build rule for target.
+sensor_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_nodejs
+.PHONY : sensor_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+sensor_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f sus2/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make sus2/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
+.PHONY : sensor_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named sus2_generate_messages_nodejs
+
+# Build rule for target.
+sus2_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sus2_generate_messages_nodejs
+.PHONY : sus2_generate_messages_nodejs
+
+# fast build rule for target.
+sus2_generate_messages_nodejs/fast:
+	$(MAKE) -f sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/build.make sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/build
+.PHONY : sus2_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_py
+
+# Build rule for target.
+sensor_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_py
+.PHONY : sensor_msgs_generate_messages_py
+
+# fast build rule for target.
+sensor_msgs_generate_messages_py/fast:
+	$(MAKE) -f sus2/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make sus2/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+.PHONY : sensor_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_cpp
+
+# Build rule for target.
+geometry_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_cpp
+.PHONY : geometry_msgs_generate_messages_cpp
+
+# fast build rule for target.
+geometry_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f sus2/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make sus2/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+.PHONY : geometry_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_lisp
+
+# Build rule for target.
+geometry_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_lisp
+.PHONY : geometry_msgs_generate_messages_lisp
+
+# fast build rule for target.
+geometry_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f sus2/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make sus2/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+.PHONY : geometry_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named sus2_generate_messages
+
+# Build rule for target.
+sus2_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sus2_generate_messages
+.PHONY : sus2_generate_messages
+
+# fast build rule for target.
+sus2_generate_messages/fast:
+	$(MAKE) -f sus2/CMakeFiles/sus2_generate_messages.dir/build.make sus2/CMakeFiles/sus2_generate_messages.dir/build
+.PHONY : sus2_generate_messages/fast
+
+#=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_py
+
+# Build rule for target.
+geometry_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_py
+.PHONY : geometry_msgs_generate_messages_py
+
+# fast build rule for target.
+geometry_msgs_generate_messages_py/fast:
+	$(MAKE) -f sus2/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make sus2/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+.PHONY : geometry_msgs_generate_messages_py/fast
 
 #=============================================================================
 # Target rules for targets named _sus2_generate_messages_check_deps_AddTwoins
@@ -648,58 +843,6 @@ sus2_genlisp/fast:
 	$(MAKE) -f sus2/CMakeFiles/sus2_genlisp.dir/build.make sus2/CMakeFiles/sus2_genlisp.dir/build
 .PHONY : sus2_genlisp/fast
 
-#=============================================================================
-# Target rules for targets named sus2_generate_messages_nodejs
-
-# Build rule for target.
-sus2_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sus2_generate_messages_nodejs
-.PHONY : sus2_generate_messages_nodejs
-
-# fast build rule for target.
-sus2_generate_messages_nodejs/fast:
-	$(MAKE) -f sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/build.make sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/build
-.PHONY : sus2_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named sus2_generate_messages_py
-
-# Build rule for target.
-sus2_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sus2_generate_messages_py
-.PHONY : sus2_generate_messages_py
-
-# fast build rule for target.
-sus2_generate_messages_py/fast:
-	$(MAKE) -f sus2/CMakeFiles/sus2_generate_messages_py.dir/build.make sus2/CMakeFiles/sus2_generate_messages_py.dir/build
-.PHONY : sus2_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named roscpp_generate_messages_cpp
-
-# Build rule for target.
-roscpp_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_cpp
-.PHONY : roscpp_generate_messages_cpp
-
-# fast build rule for target.
-roscpp_generate_messages_cpp/fast:
-	$(MAKE) -f sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/build
-.PHONY : roscpp_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named addition_client_node
-
-# Build rule for target.
-addition_client_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 addition_client_node
-.PHONY : addition_client_node
-
-# fast build rule for target.
-addition_client_node/fast:
-	$(MAKE) -f sus2/CMakeFiles/addition_client_node.dir/build.make sus2/CMakeFiles/addition_client_node.dir/build
-.PHONY : addition_client_node/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -722,38 +865,49 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
+	@echo "... test_lidar_node"
+	@echo "... subscriber_node"
+	@echo "... sus2_generate_messages_py"
 	@echo "... sus2_gencpp"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_eus"
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_cpp"
-	@echo "... sus2_generate_messages"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... sus2_generate_messages_cpp"
 	@echo "... sus2_gennodejs"
 	@echo "... sus2_geneus"
 	@echo "... rosgraph_msgs_generate_messages_eus"
-	@echo "... subscriber_node"
 	@echo "... std_msgs_generate_messages_lisp"
+	@echo "... sensor_msgs_generate_messages_cpp"
+	@echo "... sensor_msgs_generate_messages_eus"
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... roscpp_generate_messages_lisp"
+	@echo "... geometry_msgs_generate_messages_nodejs"
+	@echo "... publisher_node"
+	@echo "... _sus2_generate_messages_check_deps_person_data"
+	@echo "... roscpp_generate_messages_py"
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_eus"
+	@echo "... geometry_msgs_generate_messages_eus"
 	@echo "... sus2_genpy"
-	@echo "... _sus2_generate_messages_check_deps_person_data"
-	@echo "... publisher_node"
-	@echo "... roscpp_generate_messages_py"
+	@echo "... sensor_msgs_generate_messages_lisp"
+	@echo "... addition_client_node"
+	@echo "... roscpp_generate_messages_cpp"
+	@echo "... sensor_msgs_generate_messages_nodejs"
+	@echo "... sus2_generate_messages_nodejs"
+	@echo "... sensor_msgs_generate_messages_py"
+	@echo "... geometry_msgs_generate_messages_cpp"
+	@echo "... geometry_msgs_generate_messages_lisp"
+	@echo "... sus2_generate_messages"
+	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... _sus2_generate_messages_check_deps_AddTwoins"
 	@echo "... sus2_generate_messages_eus"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... sus2_generate_messages_lisp"
 	@echo "... addition_service_node"
 	@echo "... sus2_genlisp"
-	@echo "... sus2_generate_messages_nodejs"
-	@echo "... sus2_generate_messages_py"
-	@echo "... roscpp_generate_messages_cpp"
-	@echo "... addition_client_node"
 .PHONY : help
 
 
