@@ -136,11 +136,12 @@ gtest/googlemock/gtest/clean: gtest/googlemock/gtest/CMakeFiles/gtest.dir/clean
 # Directory level rules for directory sus2
 
 # Recursive "all" directory target.
-sus2/all: sus2/CMakeFiles/sus2_generate_messages.dir/all
+sus2/all: sus2/CMakeFiles/test_lidar_node.dir/all
 sus2/all: sus2/CMakeFiles/subscriber_node.dir/all
 sus2/all: sus2/CMakeFiles/publisher_node.dir/all
-sus2/all: sus2/CMakeFiles/addition_service_node.dir/all
 sus2/all: sus2/CMakeFiles/addition_client_node.dir/all
+sus2/all: sus2/CMakeFiles/sus2_generate_messages.dir/all
+sus2/all: sus2/CMakeFiles/addition_service_node.dir/all
 
 .PHONY : sus2/all
 
@@ -150,38 +151,49 @@ sus2/preinstall:
 .PHONY : sus2/preinstall
 
 # Recursive "clean" directory target.
+sus2/clean: sus2/CMakeFiles/test_lidar_node.dir/clean
+sus2/clean: sus2/CMakeFiles/subscriber_node.dir/clean
+sus2/clean: sus2/CMakeFiles/sus2_generate_messages_py.dir/clean
 sus2/clean: sus2/CMakeFiles/sus2_gencpp.dir/clean
 sus2/clean: sus2/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
 sus2/clean: sus2/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
 sus2/clean: sus2/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
 sus2/clean: sus2/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
 sus2/clean: sus2/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
-sus2/clean: sus2/CMakeFiles/sus2_generate_messages.dir/clean
 sus2/clean: sus2/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 sus2/clean: sus2/CMakeFiles/sus2_generate_messages_cpp.dir/clean
 sus2/clean: sus2/CMakeFiles/sus2_gennodejs.dir/clean
 sus2/clean: sus2/CMakeFiles/sus2_geneus.dir/clean
 sus2/clean: sus2/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
-sus2/clean: sus2/CMakeFiles/subscriber_node.dir/clean
 sus2/clean: sus2/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+sus2/clean: sus2/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
+sus2/clean: sus2/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
 sus2/clean: sus2/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 sus2/clean: sus2/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+sus2/clean: sus2/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
+sus2/clean: sus2/CMakeFiles/publisher_node.dir/clean
+sus2/clean: sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/clean
+sus2/clean: sus2/CMakeFiles/roscpp_generate_messages_py.dir/clean
 sus2/clean: sus2/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
 sus2/clean: sus2/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+sus2/clean: sus2/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
 sus2/clean: sus2/CMakeFiles/sus2_genpy.dir/clean
-sus2/clean: sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/clean
-sus2/clean: sus2/CMakeFiles/publisher_node.dir/clean
-sus2/clean: sus2/CMakeFiles/roscpp_generate_messages_py.dir/clean
+sus2/clean: sus2/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
+sus2/clean: sus2/CMakeFiles/addition_client_node.dir/clean
+sus2/clean: sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+sus2/clean: sus2/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
+sus2/clean: sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/clean
+sus2/clean: sus2/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
+sus2/clean: sus2/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+sus2/clean: sus2/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+sus2/clean: sus2/CMakeFiles/sus2_generate_messages.dir/clean
+sus2/clean: sus2/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
 sus2/clean: sus2/CMakeFiles/_sus2_generate_messages_check_deps_AddTwoins.dir/clean
 sus2/clean: sus2/CMakeFiles/sus2_generate_messages_eus.dir/clean
 sus2/clean: sus2/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 sus2/clean: sus2/CMakeFiles/sus2_generate_messages_lisp.dir/clean
 sus2/clean: sus2/CMakeFiles/addition_service_node.dir/clean
 sus2/clean: sus2/CMakeFiles/sus2_genlisp.dir/clean
-sus2/clean: sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/clean
-sus2/clean: sus2/CMakeFiles/sus2_generate_messages_py.dir/clean
-sus2/clean: sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-sus2/clean: sus2/CMakeFiles/addition_client_node.dir/clean
 
 .PHONY : sus2/clean
 
@@ -430,6 +442,137 @@ gtest/googlemock/gtest/CMakeFiles/gtest.dir/clean:
 .PHONY : gtest/googlemock/gtest/CMakeFiles/gtest.dir/clean
 
 #=============================================================================
+# Target rules for target sus2/CMakeFiles/test_lidar_node.dir
+
+# All Build rule for target.
+sus2/CMakeFiles/test_lidar_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+sus2/CMakeFiles/test_lidar_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+sus2/CMakeFiles/test_lidar_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+sus2/CMakeFiles/test_lidar_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+sus2/CMakeFiles/test_lidar_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+sus2/CMakeFiles/test_lidar_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+sus2/CMakeFiles/test_lidar_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+sus2/CMakeFiles/test_lidar_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+sus2/CMakeFiles/test_lidar_node.dir/all: sus2/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+sus2/CMakeFiles/test_lidar_node.dir/all: sus2/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+sus2/CMakeFiles/test_lidar_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+sus2/CMakeFiles/test_lidar_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+sus2/CMakeFiles/test_lidar_node.dir/all: sus2/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+sus2/CMakeFiles/test_lidar_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_py.dir/all
+sus2/CMakeFiles/test_lidar_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+sus2/CMakeFiles/test_lidar_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_eus.dir/all
+sus2/CMakeFiles/test_lidar_node.dir/all: sus2/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+sus2/CMakeFiles/test_lidar_node.dir/all: sus2/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+sus2/CMakeFiles/test_lidar_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+sus2/CMakeFiles/test_lidar_node.dir/all: sus2/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+sus2/CMakeFiles/test_lidar_node.dir/all: sus2/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+sus2/CMakeFiles/test_lidar_node.dir/all: sus2/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+sus2/CMakeFiles/test_lidar_node.dir/all: sus2/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+sus2/CMakeFiles/test_lidar_node.dir/all: sus2/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+sus2/CMakeFiles/test_lidar_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_py.dir/all
+	$(MAKE) -f sus2/CMakeFiles/test_lidar_node.dir/build.make sus2/CMakeFiles/test_lidar_node.dir/depend
+	$(MAKE) -f sus2/CMakeFiles/test_lidar_node.dir/build.make sus2/CMakeFiles/test_lidar_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=30,31 "Built target test_lidar_node"
+.PHONY : sus2/CMakeFiles/test_lidar_node.dir/all
+
+# Build rule for subdir invocation for target.
+sus2/CMakeFiles/test_lidar_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 sus2/CMakeFiles/test_lidar_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
+.PHONY : sus2/CMakeFiles/test_lidar_node.dir/rule
+
+# Convenience name for target.
+test_lidar_node: sus2/CMakeFiles/test_lidar_node.dir/rule
+
+.PHONY : test_lidar_node
+
+# clean rule for target.
+sus2/CMakeFiles/test_lidar_node.dir/clean:
+	$(MAKE) -f sus2/CMakeFiles/test_lidar_node.dir/build.make sus2/CMakeFiles/test_lidar_node.dir/clean
+.PHONY : sus2/CMakeFiles/test_lidar_node.dir/clean
+
+#=============================================================================
+# Target rules for target sus2/CMakeFiles/subscriber_node.dir
+
+# All Build rule for target.
+sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_py.dir/all
+sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_eus.dir/all
+sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_py.dir/all
+	$(MAKE) -f sus2/CMakeFiles/subscriber_node.dir/build.make sus2/CMakeFiles/subscriber_node.dir/depend
+	$(MAKE) -f sus2/CMakeFiles/subscriber_node.dir/build.make sus2/CMakeFiles/subscriber_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=15,16 "Built target subscriber_node"
+.PHONY : sus2/CMakeFiles/subscriber_node.dir/all
+
+# Build rule for subdir invocation for target.
+sus2/CMakeFiles/subscriber_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 sus2/CMakeFiles/subscriber_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
+.PHONY : sus2/CMakeFiles/subscriber_node.dir/rule
+
+# Convenience name for target.
+subscriber_node: sus2/CMakeFiles/subscriber_node.dir/rule
+
+.PHONY : subscriber_node
+
+# clean rule for target.
+sus2/CMakeFiles/subscriber_node.dir/clean:
+	$(MAKE) -f sus2/CMakeFiles/subscriber_node.dir/build.make sus2/CMakeFiles/subscriber_node.dir/clean
+.PHONY : sus2/CMakeFiles/subscriber_node.dir/clean
+
+#=============================================================================
+# Target rules for target sus2/CMakeFiles/sus2_generate_messages_py.dir
+
+# All Build rule for target.
+sus2/CMakeFiles/sus2_generate_messages_py.dir/all: sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/all
+sus2/CMakeFiles/sus2_generate_messages_py.dir/all: sus2/CMakeFiles/_sus2_generate_messages_check_deps_AddTwoins.dir/all
+sus2/CMakeFiles/sus2_generate_messages_py.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_py.dir/all
+	$(MAKE) -f sus2/CMakeFiles/sus2_generate_messages_py.dir/build.make sus2/CMakeFiles/sus2_generate_messages_py.dir/depend
+	$(MAKE) -f sus2/CMakeFiles/sus2_generate_messages_py.dir/build.make sus2/CMakeFiles/sus2_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=26,27,28,29 "Built target sus2_generate_messages_py"
+.PHONY : sus2/CMakeFiles/sus2_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+sus2/CMakeFiles/sus2_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 sus2/CMakeFiles/sus2_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
+.PHONY : sus2/CMakeFiles/sus2_generate_messages_py.dir/rule
+
+# Convenience name for target.
+sus2_generate_messages_py: sus2/CMakeFiles/sus2_generate_messages_py.dir/rule
+
+.PHONY : sus2_generate_messages_py
+
+# clean rule for target.
+sus2/CMakeFiles/sus2_generate_messages_py.dir/clean:
+	$(MAKE) -f sus2/CMakeFiles/sus2_generate_messages_py.dir/build.make sus2/CMakeFiles/sus2_generate_messages_py.dir/clean
+.PHONY : sus2/CMakeFiles/sus2_generate_messages_py.dir/clean
+
+#=============================================================================
 # Target rules for target sus2/CMakeFiles/sus2_gencpp.dir
 
 # All Build rule for target.
@@ -592,37 +735,6 @@ sus2/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
 .PHONY : sus2/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
 
 #=============================================================================
-# Target rules for target sus2/CMakeFiles/sus2_generate_messages.dir
-
-# All Build rule for target.
-sus2/CMakeFiles/sus2_generate_messages.dir/all: sus2/CMakeFiles/sus2_generate_messages_cpp.dir/all
-sus2/CMakeFiles/sus2_generate_messages.dir/all: sus2/CMakeFiles/sus2_generate_messages_eus.dir/all
-sus2/CMakeFiles/sus2_generate_messages.dir/all: sus2/CMakeFiles/sus2_generate_messages_lisp.dir/all
-sus2/CMakeFiles/sus2_generate_messages.dir/all: sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/all
-sus2/CMakeFiles/sus2_generate_messages.dir/all: sus2/CMakeFiles/sus2_generate_messages_py.dir/all
-	$(MAKE) -f sus2/CMakeFiles/sus2_generate_messages.dir/build.make sus2/CMakeFiles/sus2_generate_messages.dir/depend
-	$(MAKE) -f sus2/CMakeFiles/sus2_generate_messages.dir/build.make sus2/CMakeFiles/sus2_generate_messages.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num= "Built target sus2_generate_messages"
-.PHONY : sus2/CMakeFiles/sus2_generate_messages.dir/all
-
-# Build rule for subdir invocation for target.
-sus2/CMakeFiles/sus2_generate_messages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 13
-	$(MAKE) -f CMakeFiles/Makefile2 sus2/CMakeFiles/sus2_generate_messages.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
-.PHONY : sus2/CMakeFiles/sus2_generate_messages.dir/rule
-
-# Convenience name for target.
-sus2_generate_messages: sus2/CMakeFiles/sus2_generate_messages.dir/rule
-
-.PHONY : sus2_generate_messages
-
-# clean rule for target.
-sus2/CMakeFiles/sus2_generate_messages.dir/clean:
-	$(MAKE) -f sus2/CMakeFiles/sus2_generate_messages.dir/build.make sus2/CMakeFiles/sus2_generate_messages.dir/clean
-.PHONY : sus2/CMakeFiles/sus2_generate_messages.dir/clean
-
-#=============================================================================
 # Target rules for target sus2/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
 
 # All Build rule for target.
@@ -760,47 +872,6 @@ sus2/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean:
 .PHONY : sus2/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
 
 #=============================================================================
-# Target rules for target sus2/CMakeFiles/subscriber_node.dir
-
-# All Build rule for target.
-sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_eus.dir/all
-sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_eus.dir/all
-sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_py.dir/all
-sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_py.dir/all
-sus2/CMakeFiles/subscriber_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-	$(MAKE) -f sus2/CMakeFiles/subscriber_node.dir/build.make sus2/CMakeFiles/subscriber_node.dir/depend
-	$(MAKE) -f sus2/CMakeFiles/subscriber_node.dir/build.make sus2/CMakeFiles/subscriber_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=15,16 "Built target subscriber_node"
-.PHONY : sus2/CMakeFiles/subscriber_node.dir/all
-
-# Build rule for subdir invocation for target.
-sus2/CMakeFiles/subscriber_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 sus2/CMakeFiles/subscriber_node.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
-.PHONY : sus2/CMakeFiles/subscriber_node.dir/rule
-
-# Convenience name for target.
-subscriber_node: sus2/CMakeFiles/subscriber_node.dir/rule
-
-.PHONY : subscriber_node
-
-# clean rule for target.
-sus2/CMakeFiles/subscriber_node.dir/clean:
-	$(MAKE) -f sus2/CMakeFiles/subscriber_node.dir/build.make sus2/CMakeFiles/subscriber_node.dir/clean
-.PHONY : sus2/CMakeFiles/subscriber_node.dir/clean
-
-#=============================================================================
 # Target rules for target sus2/CMakeFiles/std_msgs_generate_messages_lisp.dir
 
 # All Build rule for target.
@@ -826,6 +897,60 @@ std_msgs_generate_messages_lisp: sus2/CMakeFiles/std_msgs_generate_messages_lisp
 sus2/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
 	$(MAKE) -f sus2/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make sus2/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
 .PHONY : sus2/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+
+#=============================================================================
+# Target rules for target sus2/CMakeFiles/sensor_msgs_generate_messages_cpp.dir
+
+# All Build rule for target.
+sus2/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f sus2/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make sus2/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f sus2/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make sus2/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_cpp"
+.PHONY : sus2/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+sus2/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 sus2/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
+.PHONY : sus2/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_cpp: sus2/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : sensor_msgs_generate_messages_cpp
+
+# clean rule for target.
+sus2/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f sus2/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make sus2/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
+.PHONY : sus2/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
+
+#=============================================================================
+# Target rules for target sus2/CMakeFiles/sensor_msgs_generate_messages_eus.dir
+
+# All Build rule for target.
+sus2/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f sus2/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make sus2/CMakeFiles/sensor_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f sus2/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make sus2/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_eus"
+.PHONY : sus2/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+sus2/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 sus2/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
+.PHONY : sus2/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_eus: sus2/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
+
+.PHONY : sensor_msgs_generate_messages_eus
+
+# clean rule for target.
+sus2/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f sus2/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make sus2/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
+.PHONY : sus2/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
 
 #=============================================================================
 # Target rules for target sus2/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
@@ -882,6 +1007,138 @@ sus2/CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
 .PHONY : sus2/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 
 #=============================================================================
+# Target rules for target sus2/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir
+
+# All Build rule for target.
+sus2/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f sus2/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make sus2/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f sus2/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make sus2/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_nodejs"
+.PHONY : sus2/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+sus2/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 sus2/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
+.PHONY : sus2/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_nodejs: sus2/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_nodejs
+
+# clean rule for target.
+sus2/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f sus2/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make sus2/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
+.PHONY : sus2/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
+
+#=============================================================================
+# Target rules for target sus2/CMakeFiles/publisher_node.dir
+
+# All Build rule for target.
+sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_py.dir/all
+sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_eus.dir/all
+sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_py.dir/all
+	$(MAKE) -f sus2/CMakeFiles/publisher_node.dir/build.make sus2/CMakeFiles/publisher_node.dir/depend
+	$(MAKE) -f sus2/CMakeFiles/publisher_node.dir/build.make sus2/CMakeFiles/publisher_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=13,14 "Built target publisher_node"
+.PHONY : sus2/CMakeFiles/publisher_node.dir/all
+
+# Build rule for subdir invocation for target.
+sus2/CMakeFiles/publisher_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 sus2/CMakeFiles/publisher_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
+.PHONY : sus2/CMakeFiles/publisher_node.dir/rule
+
+# Convenience name for target.
+publisher_node: sus2/CMakeFiles/publisher_node.dir/rule
+
+.PHONY : publisher_node
+
+# clean rule for target.
+sus2/CMakeFiles/publisher_node.dir/clean:
+	$(MAKE) -f sus2/CMakeFiles/publisher_node.dir/build.make sus2/CMakeFiles/publisher_node.dir/clean
+.PHONY : sus2/CMakeFiles/publisher_node.dir/clean
+
+#=============================================================================
+# Target rules for target sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir
+
+# All Build rule for target.
+sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/all:
+	$(MAKE) -f sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/build.make sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/depend
+	$(MAKE) -f sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/build.make sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num= "Built target _sus2_generate_messages_check_deps_person_data"
+.PHONY : sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/all
+
+# Build rule for subdir invocation for target.
+sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
+.PHONY : sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/rule
+
+# Convenience name for target.
+_sus2_generate_messages_check_deps_person_data: sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/rule
+
+.PHONY : _sus2_generate_messages_check_deps_person_data
+
+# clean rule for target.
+sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/clean:
+	$(MAKE) -f sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/build.make sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/clean
+.PHONY : sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/clean
+
+#=============================================================================
+# Target rules for target sus2/CMakeFiles/roscpp_generate_messages_py.dir
+
+# All Build rule for target.
+sus2/CMakeFiles/roscpp_generate_messages_py.dir/all:
+	$(MAKE) -f sus2/CMakeFiles/roscpp_generate_messages_py.dir/build.make sus2/CMakeFiles/roscpp_generate_messages_py.dir/depend
+	$(MAKE) -f sus2/CMakeFiles/roscpp_generate_messages_py.dir/build.make sus2/CMakeFiles/roscpp_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_py"
+.PHONY : sus2/CMakeFiles/roscpp_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+sus2/CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 sus2/CMakeFiles/roscpp_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
+.PHONY : sus2/CMakeFiles/roscpp_generate_messages_py.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_py: sus2/CMakeFiles/roscpp_generate_messages_py.dir/rule
+
+.PHONY : roscpp_generate_messages_py
+
+# clean rule for target.
+sus2/CMakeFiles/roscpp_generate_messages_py.dir/clean:
+	$(MAKE) -f sus2/CMakeFiles/roscpp_generate_messages_py.dir/build.make sus2/CMakeFiles/roscpp_generate_messages_py.dir/clean
+.PHONY : sus2/CMakeFiles/roscpp_generate_messages_py.dir/clean
+
+#=============================================================================
 # Target rules for target sus2/CMakeFiles/roscpp_generate_messages_nodejs.dir
 
 # All Build rule for target.
@@ -936,6 +1193,33 @@ sus2/CMakeFiles/roscpp_generate_messages_eus.dir/clean:
 .PHONY : sus2/CMakeFiles/roscpp_generate_messages_eus.dir/clean
 
 #=============================================================================
+# Target rules for target sus2/CMakeFiles/geometry_msgs_generate_messages_eus.dir
+
+# All Build rule for target.
+sus2/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f sus2/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make sus2/CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f sus2/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make sus2/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_eus"
+.PHONY : sus2/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+sus2/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 sus2/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
+.PHONY : sus2/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_eus: sus2/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_eus
+
+# clean rule for target.
+sus2/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f sus2/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make sus2/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
+.PHONY : sus2/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
+
+#=============================================================================
 # Target rules for target sus2/CMakeFiles/sus2_genpy.dir
 
 # All Build rule for target.
@@ -963,99 +1247,304 @@ sus2/CMakeFiles/sus2_genpy.dir/clean:
 .PHONY : sus2/CMakeFiles/sus2_genpy.dir/clean
 
 #=============================================================================
-# Target rules for target sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir
+# Target rules for target sus2/CMakeFiles/sensor_msgs_generate_messages_lisp.dir
 
 # All Build rule for target.
-sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/all:
-	$(MAKE) -f sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/build.make sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/depend
-	$(MAKE) -f sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/build.make sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num= "Built target _sus2_generate_messages_check_deps_person_data"
-.PHONY : sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/all
+sus2/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f sus2/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make sus2/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f sus2/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make sus2/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_lisp"
+.PHONY : sus2/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
-sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/rule: cmake_check_build_system
+sus2/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 sus2/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
-.PHONY : sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/rule
+.PHONY : sus2/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-_sus2_generate_messages_check_deps_person_data: sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/rule
+sensor_msgs_generate_messages_lisp: sus2/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
 
-.PHONY : _sus2_generate_messages_check_deps_person_data
+.PHONY : sensor_msgs_generate_messages_lisp
 
 # clean rule for target.
-sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/clean:
-	$(MAKE) -f sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/build.make sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/clean
-.PHONY : sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/clean
+sus2/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f sus2/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make sus2/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
+.PHONY : sus2/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
 
 #=============================================================================
-# Target rules for target sus2/CMakeFiles/publisher_node.dir
+# Target rules for target sus2/CMakeFiles/addition_client_node.dir
 
 # All Build rule for target.
-sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_eus.dir/all
-sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_eus.dir/all
-sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_py.dir/all
-sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_py.dir/all
-sus2/CMakeFiles/publisher_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-	$(MAKE) -f sus2/CMakeFiles/publisher_node.dir/build.make sus2/CMakeFiles/publisher_node.dir/depend
-	$(MAKE) -f sus2/CMakeFiles/publisher_node.dir/build.make sus2/CMakeFiles/publisher_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=13,14 "Built target publisher_node"
-.PHONY : sus2/CMakeFiles/publisher_node.dir/all
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_py.dir/all
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_eus.dir/all
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_py.dir/all
+	$(MAKE) -f sus2/CMakeFiles/addition_client_node.dir/build.make sus2/CMakeFiles/addition_client_node.dir/depend
+	$(MAKE) -f sus2/CMakeFiles/addition_client_node.dir/build.make sus2/CMakeFiles/addition_client_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=1,2 "Built target addition_client_node"
+.PHONY : sus2/CMakeFiles/addition_client_node.dir/all
 
 # Build rule for subdir invocation for target.
-sus2/CMakeFiles/publisher_node.dir/rule: cmake_check_build_system
+sus2/CMakeFiles/addition_client_node.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 sus2/CMakeFiles/publisher_node.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 sus2/CMakeFiles/addition_client_node.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
-.PHONY : sus2/CMakeFiles/publisher_node.dir/rule
+.PHONY : sus2/CMakeFiles/addition_client_node.dir/rule
 
 # Convenience name for target.
-publisher_node: sus2/CMakeFiles/publisher_node.dir/rule
+addition_client_node: sus2/CMakeFiles/addition_client_node.dir/rule
 
-.PHONY : publisher_node
+.PHONY : addition_client_node
 
 # clean rule for target.
-sus2/CMakeFiles/publisher_node.dir/clean:
-	$(MAKE) -f sus2/CMakeFiles/publisher_node.dir/build.make sus2/CMakeFiles/publisher_node.dir/clean
-.PHONY : sus2/CMakeFiles/publisher_node.dir/clean
+sus2/CMakeFiles/addition_client_node.dir/clean:
+	$(MAKE) -f sus2/CMakeFiles/addition_client_node.dir/build.make sus2/CMakeFiles/addition_client_node.dir/clean
+.PHONY : sus2/CMakeFiles/addition_client_node.dir/clean
 
 #=============================================================================
-# Target rules for target sus2/CMakeFiles/roscpp_generate_messages_py.dir
+# Target rules for target sus2/CMakeFiles/roscpp_generate_messages_cpp.dir
 
 # All Build rule for target.
-sus2/CMakeFiles/roscpp_generate_messages_py.dir/all:
-	$(MAKE) -f sus2/CMakeFiles/roscpp_generate_messages_py.dir/build.make sus2/CMakeFiles/roscpp_generate_messages_py.dir/depend
-	$(MAKE) -f sus2/CMakeFiles/roscpp_generate_messages_py.dir/build.make sus2/CMakeFiles/roscpp_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_py"
-.PHONY : sus2/CMakeFiles/roscpp_generate_messages_py.dir/all
+sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/all:
+	$(MAKE) -f sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
+	$(MAKE) -f sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_cpp"
+.PHONY : sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
-sus2/CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
+sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 sus2/CMakeFiles/roscpp_generate_messages_py.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
-.PHONY : sus2/CMakeFiles/roscpp_generate_messages_py.dir/rule
+.PHONY : sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_py: sus2/CMakeFiles/roscpp_generate_messages_py.dir/rule
+roscpp_generate_messages_cpp: sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
-.PHONY : roscpp_generate_messages_py
+.PHONY : roscpp_generate_messages_cpp
 
 # clean rule for target.
-sus2/CMakeFiles/roscpp_generate_messages_py.dir/clean:
-	$(MAKE) -f sus2/CMakeFiles/roscpp_generate_messages_py.dir/build.make sus2/CMakeFiles/roscpp_generate_messages_py.dir/clean
-.PHONY : sus2/CMakeFiles/roscpp_generate_messages_py.dir/clean
+sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
+	$(MAKE) -f sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+.PHONY : sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+
+#=============================================================================
+# Target rules for target sus2/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir
+
+# All Build rule for target.
+sus2/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f sus2/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make sus2/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f sus2/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make sus2/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_nodejs"
+.PHONY : sus2/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+sus2/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 sus2/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
+.PHONY : sus2/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_nodejs: sus2/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
+
+.PHONY : sensor_msgs_generate_messages_nodejs
+
+# clean rule for target.
+sus2/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f sus2/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make sus2/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
+.PHONY : sus2/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
+
+#=============================================================================
+# Target rules for target sus2/CMakeFiles/sus2_generate_messages_nodejs.dir
+
+# All Build rule for target.
+sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/all: sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/all
+sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/all: sus2/CMakeFiles/_sus2_generate_messages_check_deps_AddTwoins.dir/all
+	$(MAKE) -f sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/build.make sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/depend
+	$(MAKE) -f sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/build.make sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=24,25 "Built target sus2_generate_messages_nodejs"
+.PHONY : sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
+.PHONY : sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+sus2_generate_messages_nodejs: sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/rule
+
+.PHONY : sus2_generate_messages_nodejs
+
+# clean rule for target.
+sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/build.make sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/clean
+.PHONY : sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/clean
+
+#=============================================================================
+# Target rules for target sus2/CMakeFiles/sensor_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+sus2/CMakeFiles/sensor_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f sus2/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make sus2/CMakeFiles/sensor_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f sus2/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make sus2/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_py"
+.PHONY : sus2/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+sus2/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 sus2/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
+.PHONY : sus2/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_py: sus2/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+
+.PHONY : sensor_msgs_generate_messages_py
+
+# clean rule for target.
+sus2/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f sus2/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make sus2/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
+.PHONY : sus2/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
+
+#=============================================================================
+# Target rules for target sus2/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
+
+# All Build rule for target.
+sus2/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f sus2/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make sus2/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f sus2/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make sus2/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_cpp"
+.PHONY : sus2/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+sus2/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 sus2/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
+.PHONY : sus2/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_cpp: sus2/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_cpp
+
+# clean rule for target.
+sus2/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f sus2/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make sus2/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+.PHONY : sus2/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+
+#=============================================================================
+# Target rules for target sus2/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+sus2/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f sus2/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make sus2/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f sus2/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make sus2/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_lisp"
+.PHONY : sus2/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+sus2/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 sus2/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
+.PHONY : sus2/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_lisp: sus2/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_lisp
+
+# clean rule for target.
+sus2/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f sus2/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make sus2/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+.PHONY : sus2/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+
+#=============================================================================
+# Target rules for target sus2/CMakeFiles/sus2_generate_messages.dir
+
+# All Build rule for target.
+sus2/CMakeFiles/sus2_generate_messages.dir/all: sus2/CMakeFiles/sus2_generate_messages_py.dir/all
+sus2/CMakeFiles/sus2_generate_messages.dir/all: sus2/CMakeFiles/sus2_generate_messages_cpp.dir/all
+sus2/CMakeFiles/sus2_generate_messages.dir/all: sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/all
+sus2/CMakeFiles/sus2_generate_messages.dir/all: sus2/CMakeFiles/sus2_generate_messages_eus.dir/all
+sus2/CMakeFiles/sus2_generate_messages.dir/all: sus2/CMakeFiles/sus2_generate_messages_lisp.dir/all
+	$(MAKE) -f sus2/CMakeFiles/sus2_generate_messages.dir/build.make sus2/CMakeFiles/sus2_generate_messages.dir/depend
+	$(MAKE) -f sus2/CMakeFiles/sus2_generate_messages.dir/build.make sus2/CMakeFiles/sus2_generate_messages.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num= "Built target sus2_generate_messages"
+.PHONY : sus2/CMakeFiles/sus2_generate_messages.dir/all
+
+# Build rule for subdir invocation for target.
+sus2/CMakeFiles/sus2_generate_messages.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 13
+	$(MAKE) -f CMakeFiles/Makefile2 sus2/CMakeFiles/sus2_generate_messages.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
+.PHONY : sus2/CMakeFiles/sus2_generate_messages.dir/rule
+
+# Convenience name for target.
+sus2_generate_messages: sus2/CMakeFiles/sus2_generate_messages.dir/rule
+
+.PHONY : sus2_generate_messages
+
+# clean rule for target.
+sus2/CMakeFiles/sus2_generate_messages.dir/clean:
+	$(MAKE) -f sus2/CMakeFiles/sus2_generate_messages.dir/build.make sus2/CMakeFiles/sus2_generate_messages.dir/clean
+.PHONY : sus2/CMakeFiles/sus2_generate_messages.dir/clean
+
+#=============================================================================
+# Target rules for target sus2/CMakeFiles/geometry_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+sus2/CMakeFiles/geometry_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f sus2/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make sus2/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f sus2/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make sus2/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_py"
+.PHONY : sus2/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+sus2/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 sus2/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
+.PHONY : sus2/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_py: sus2/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_py
+
+# clean rule for target.
+sus2/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f sus2/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make sus2/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+.PHONY : sus2/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
 
 #=============================================================================
 # Target rules for target sus2/CMakeFiles/_sus2_generate_messages_check_deps_AddTwoins.dir
@@ -1181,13 +1670,23 @@ sus2/CMakeFiles/addition_service_node.dir/all: sus2/CMakeFiles/std_msgs_generate
 sus2/CMakeFiles/addition_service_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
 sus2/CMakeFiles/addition_service_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
 sus2/CMakeFiles/addition_service_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+sus2/CMakeFiles/addition_service_node.dir/all: sus2/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+sus2/CMakeFiles/addition_service_node.dir/all: sus2/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
 sus2/CMakeFiles/addition_service_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 sus2/CMakeFiles/addition_service_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+sus2/CMakeFiles/addition_service_node.dir/all: sus2/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+sus2/CMakeFiles/addition_service_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_py.dir/all
 sus2/CMakeFiles/addition_service_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
 sus2/CMakeFiles/addition_service_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_eus.dir/all
-sus2/CMakeFiles/addition_service_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_py.dir/all
-sus2/CMakeFiles/addition_service_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_py.dir/all
+sus2/CMakeFiles/addition_service_node.dir/all: sus2/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+sus2/CMakeFiles/addition_service_node.dir/all: sus2/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 sus2/CMakeFiles/addition_service_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+sus2/CMakeFiles/addition_service_node.dir/all: sus2/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+sus2/CMakeFiles/addition_service_node.dir/all: sus2/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+sus2/CMakeFiles/addition_service_node.dir/all: sus2/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+sus2/CMakeFiles/addition_service_node.dir/all: sus2/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+sus2/CMakeFiles/addition_service_node.dir/all: sus2/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+sus2/CMakeFiles/addition_service_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_py.dir/all
 	$(MAKE) -f sus2/CMakeFiles/addition_service_node.dir/build.make sus2/CMakeFiles/addition_service_node.dir/depend
 	$(MAKE) -f sus2/CMakeFiles/addition_service_node.dir/build.make sus2/CMakeFiles/addition_service_node.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=3,4 "Built target addition_service_node"
@@ -1236,132 +1735,6 @@ sus2_genlisp: sus2/CMakeFiles/sus2_genlisp.dir/rule
 sus2/CMakeFiles/sus2_genlisp.dir/clean:
 	$(MAKE) -f sus2/CMakeFiles/sus2_genlisp.dir/build.make sus2/CMakeFiles/sus2_genlisp.dir/clean
 .PHONY : sus2/CMakeFiles/sus2_genlisp.dir/clean
-
-#=============================================================================
-# Target rules for target sus2/CMakeFiles/sus2_generate_messages_nodejs.dir
-
-# All Build rule for target.
-sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/all: sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/all
-sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/all: sus2/CMakeFiles/_sus2_generate_messages_check_deps_AddTwoins.dir/all
-	$(MAKE) -f sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/build.make sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/depend
-	$(MAKE) -f sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/build.make sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=24,25 "Built target sus2_generate_messages_nodejs"
-.PHONY : sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/all
-
-# Build rule for subdir invocation for target.
-sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
-.PHONY : sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-sus2_generate_messages_nodejs: sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/rule
-
-.PHONY : sus2_generate_messages_nodejs
-
-# clean rule for target.
-sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/build.make sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/clean
-.PHONY : sus2/CMakeFiles/sus2_generate_messages_nodejs.dir/clean
-
-#=============================================================================
-# Target rules for target sus2/CMakeFiles/sus2_generate_messages_py.dir
-
-# All Build rule for target.
-sus2/CMakeFiles/sus2_generate_messages_py.dir/all: sus2/CMakeFiles/_sus2_generate_messages_check_deps_person_data.dir/all
-sus2/CMakeFiles/sus2_generate_messages_py.dir/all: sus2/CMakeFiles/_sus2_generate_messages_check_deps_AddTwoins.dir/all
-sus2/CMakeFiles/sus2_generate_messages_py.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_py.dir/all
-	$(MAKE) -f sus2/CMakeFiles/sus2_generate_messages_py.dir/build.make sus2/CMakeFiles/sus2_generate_messages_py.dir/depend
-	$(MAKE) -f sus2/CMakeFiles/sus2_generate_messages_py.dir/build.make sus2/CMakeFiles/sus2_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=26,27,28,29 "Built target sus2_generate_messages_py"
-.PHONY : sus2/CMakeFiles/sus2_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-sus2/CMakeFiles/sus2_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 4
-	$(MAKE) -f CMakeFiles/Makefile2 sus2/CMakeFiles/sus2_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
-.PHONY : sus2/CMakeFiles/sus2_generate_messages_py.dir/rule
-
-# Convenience name for target.
-sus2_generate_messages_py: sus2/CMakeFiles/sus2_generate_messages_py.dir/rule
-
-.PHONY : sus2_generate_messages_py
-
-# clean rule for target.
-sus2/CMakeFiles/sus2_generate_messages_py.dir/clean:
-	$(MAKE) -f sus2/CMakeFiles/sus2_generate_messages_py.dir/build.make sus2/CMakeFiles/sus2_generate_messages_py.dir/clean
-.PHONY : sus2/CMakeFiles/sus2_generate_messages_py.dir/clean
-
-#=============================================================================
-# Target rules for target sus2/CMakeFiles/roscpp_generate_messages_cpp.dir
-
-# All Build rule for target.
-sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/all:
-	$(MAKE) -f sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
-	$(MAKE) -f sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_cpp"
-.PHONY : sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
-.PHONY : sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_cpp: sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-
-.PHONY : roscpp_generate_messages_cpp
-
-# clean rule for target.
-sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
-	$(MAKE) -f sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-.PHONY : sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-
-#=============================================================================
-# Target rules for target sus2/CMakeFiles/addition_client_node.dir
-
-# All Build rule for target.
-sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_eus.dir/all
-sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_eus.dir/all
-sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_py.dir/all
-sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/std_msgs_generate_messages_py.dir/all
-sus2/CMakeFiles/addition_client_node.dir/all: sus2/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-	$(MAKE) -f sus2/CMakeFiles/addition_client_node.dir/build.make sus2/CMakeFiles/addition_client_node.dir/depend
-	$(MAKE) -f sus2/CMakeFiles/addition_client_node.dir/build.make sus2/CMakeFiles/addition_client_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/sus/build/CMakeFiles --progress-num=1,2 "Built target addition_client_node"
-.PHONY : sus2/CMakeFiles/addition_client_node.dir/all
-
-# Build rule for subdir invocation for target.
-sus2/CMakeFiles/addition_client_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 sus2/CMakeFiles/addition_client_node.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/sus/build/CMakeFiles 0
-.PHONY : sus2/CMakeFiles/addition_client_node.dir/rule
-
-# Convenience name for target.
-addition_client_node: sus2/CMakeFiles/addition_client_node.dir/rule
-
-.PHONY : addition_client_node
-
-# clean rule for target.
-sus2/CMakeFiles/addition_client_node.dir/clean:
-	$(MAKE) -f sus2/CMakeFiles/addition_client_node.dir/build.make sus2/CMakeFiles/addition_client_node.dir/clean
-.PHONY : sus2/CMakeFiles/addition_client_node.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
